@@ -22,6 +22,7 @@ for _ in range(10):
     else:
         ceros += 1
 
+#Mostramos los resultados, utilizando los contadores del principio.
 print("\nResultados:")
 print(f"Números positivos: {positivos}")
 print(f"Números negativos: {negativos}")
