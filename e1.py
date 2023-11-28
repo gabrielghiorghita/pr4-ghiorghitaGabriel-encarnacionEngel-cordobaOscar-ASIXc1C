@@ -11,7 +11,7 @@ negativos = 0
 ceros = 0
 
 #Pedimos al usuario que ingrese 10 números
-for _ in range(10):
+for var in range(10):
     numero = float(input("Ingrese un número aleatorio: "))
 
 #Verificamos si el número es +,-,0
@@ -23,7 +23,6 @@ for _ in range(10):
         ceros += 1
 
 #Mostramos los resultados, utilizando los contadores del principio.
-print("\nResultados:")
 print(f"Números positivos: {positivos}")
 print(f"Números negativos: {negativos}")
 print(f"Números iguales a cero: {ceros}")
