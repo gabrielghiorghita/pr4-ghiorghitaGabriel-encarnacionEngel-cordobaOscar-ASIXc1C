@@ -1,3 +1,10 @@
+"""
+Gabriel Ghiorghita / Engel Encarnación / Oscar Cordoba
+10/10/2023
+ASIX1c M03 UF1
+Descripción: SUMA DE NOMBRES SENARS I PARELLS
+"""
+
 def suma_parells_i_senars(limit):
     suma_parells = 0
     suma_senars = 0
