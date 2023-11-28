@@ -4,11 +4,22 @@ Gabriel Ghiorghita / Engel Encarnación / Oscar Cordoba
 ASIX1c M03 UF1
 Descripción: Numeros positivos y negativos
 """
-def mostrar_triangle(alcada):
-    for i in range(1, alcada + 1):
-        # Imprimir espacios a la izquierda
-        print(" " * (alcada - i), end="")
+def imprimir_piramide(numero):
+    for i in range(1, numero + 1):
+        if i == numero:
+            print(str(i) * (2* i- 1))
+        else:
+            spaces = " " * (i - 1)
+            if i == 1:
+                print(str(i))
+            else:
+                print(str(i) + spaces + str(i))
 
-        # Imprimir números a la izquierda
-        for j in range(1, i):
-            print(j, end="")
+
+numero_str = input("Introduce un número para la altura de tu pirámide: ")
+
+numero = int(numero_str)
+
+imprimir_piramide(numero)
+
+print("Programa finalizado, cerrando...")

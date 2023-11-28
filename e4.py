@@ -16,5 +16,5 @@ def imprimir_tauler():
                 print(BLANC, end=" ")
         print() #Salt a la següent linia al final de cada fila
 
-#Imprimim el tayker tauler
+#Imprimim el tauler
 imprimir_tauler()
