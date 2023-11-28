@@ -6,5 +6,10 @@ Descripción: Numeros positivos y negativos
 """
 
 primernumero=int(input("introduce un numero"))
+segundonumero=int(input("introduce un numero"))
+primernumero=int(input("introduce un numero"))
+primernumero=int(input("introduce un numero"))
+primernumero=int(input("introduce un numero"))
+primernumero=int(input("introduce un numero"))
 primernumero=int(input("introduce un numero"))
 primernumero=int(input("introduce un numero"))
