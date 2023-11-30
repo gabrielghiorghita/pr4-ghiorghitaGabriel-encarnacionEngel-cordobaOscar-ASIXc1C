@@ -26,3 +26,4 @@ else:
  print("El número debe estar en el rango de 2 a 9.")
 
 print("Programa finalizado, cerrando...")
+l
