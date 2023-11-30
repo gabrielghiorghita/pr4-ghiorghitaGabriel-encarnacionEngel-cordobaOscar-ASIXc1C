@@ -4,6 +4,7 @@ Gabriel Ghiorghita / Engel Encarnación / Oscar Cordoba
 ASIX1c M03 UF1
 Descripción: Piràmide
 """
+#definimos las funciones para la piramide
 def imprimir_piramide(numero):
      for i in range(1, numero + 1):
         if i == numero:
@@ -18,7 +19,7 @@ def imprimir_piramide(numero):
 
 numero_str = input("Introduce un número para la altura de tu pirámide: ")
 numero = int(numero_str)
-
+# comprobar si esta dentro de el rango si no finaliza el programa
 if numero >=2 and numero <=9:
     imprimir_piramide(numero)
 else:
