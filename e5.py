@@ -5,27 +5,24 @@ ASIX1c M03 UF1
 Descripción: Multiplicació de dos nombres sencers mitjançant sumes.
 
 """
-def suma(a, b):
-    # Funció que suma dos nombres
-    return a + b
-
 def multiplicacio(a, b):
-    #Funció que realitza la multiplicació mitjançant sumes successives
-    resultat = 0
-    for _ in range(b):
-        resultat = suma(resultat, a)
-    return resultat
+    # Cas base: quan b és 0, el resultat és 0
+    if b == 0:
+        return 0
+    # Cas general: suma "a" i crida recursiva amb "a" i "b-1"
+    else:
+        return a + multiplicacio(a, b-1)
 
-#Programa principal
+# Programa principal
 if __name__ == "__main__":
-    # Demanem a l'usuari dos nombres per multiplicar
+    # Demana a l'usuari dos nombres per multiplicar
     num1 = int(input("Introdueix el primer nombre: "))
     num2 = int(input("Introdueix el segon nombre: "))
 
-    #Calculem la multiplicació utilitzant la funció
+    # Calcula la multiplicació utilitzant la funció
     resultat = multiplicacio(num1, num2)
 
-    #Mostrem el resultat
+    # Mostra el resultat
     print("El resultat de la multiplicació és:", resultat)
 
 
