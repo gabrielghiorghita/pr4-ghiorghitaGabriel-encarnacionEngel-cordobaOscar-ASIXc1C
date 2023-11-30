@@ -14,7 +14,7 @@ ceros = 0
 for var in range(10):
     numero = float(input("Ingrese un número aleatorio: "))
 
-#Verificamos si el número es +,-,0
+#Verificamos si el número es positivo, negativo o cero. Entonces se añade al contador correspondiente.
     if numero > 0:
         positivos += 1
     elif numero < 0:
